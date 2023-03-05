@@ -1,0 +1,33 @@
+.card{
+    width: 200px;
+    height: 230px;
+    border-radius: 8px;
+    border: 1.5px solid black;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);    
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.profileimage{
+    border-radius: 70%;
+    width: 40%;
+    border: 1.5px solid black;
+}
+
+.profilebtn{
+    border-radius: 4px;
+    color: white;
+    background-color:orangered;
+    text-decoration: none;
+    padding: 4px;
+    border: 1.5px solid black;
+}
+.profilebtn:hover{
+    color: white;
+    background-color: black;
+}
+
